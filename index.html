@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -10,7 +10,7 @@
 
   :root {
     --black: #0A0A0A;
-    --dark: #111111;
+    --dark: #111111;/
     --dark2: #161616;
     --steel: #1E2428;
     --orange: #E85D1A;
@@ -772,7 +772,7 @@
 
   .form-input:focus { border-color: var(--orange-border); }
   .form-input::placeholder { color: var(--grey); }
-
+ .form-input:-webkit-autofill { -webkit-box-shadow: 0 0 0px 1000px #161616 inset; -webkit-text-fill-color: #F0EDE8; }
   .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
   .form-textarea { resize: none; height: 120px; }
 
